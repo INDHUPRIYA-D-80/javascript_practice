@@ -1,6 +1,4 @@
-
 //set
-
 //first example
 
 setExample = new Set(["aiadmk","bjp","congress"]);
@@ -39,5 +37,5 @@ console.log(mapEg)
 
 mapEg.delete("PhoneNo");
 console.log(mapEg);
-//console.log(mapEg.has("name1"))
+console.log(mapEg.has("name1"))
 
