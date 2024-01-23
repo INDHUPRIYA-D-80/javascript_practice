@@ -92,12 +92,20 @@ kongu["Food"] = "Pretty Decent"
 kongu["hostelCount"] =  10
 console.log(kongu)
 
-//for in
-for(const key in kongu){
-    console.log(key,kongu[key])
-}
 
+//
+//for in =>Output = key 
+
+for(key in kongu){
+     console.log(key,kongu[key])
+ }
+kongu = Object.entries(kongu)
 //forEach
-kongu.forEach(Element=>{
-    console.log(key,lement)
+kongu.forEach(([key,element])=>{
+    console.log(key,":",element)
 });
+
+//for of 
+for ([key,element] of kongu){
+    console.log(key,":",element)
+}

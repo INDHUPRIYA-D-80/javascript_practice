@@ -62,10 +62,13 @@ switch(taken) {
 
 
 //Ternary Operator
-
+{
 let marks = 80;
 result = (marks>=35)?"Passed":"Failed";
 console.log("Rani!...You have",result,"in the exam")
-let marks1 = 30;
-result1 = (marks1>=40)?"Passed":"Failed";
+}
+{
+let marks = 30;
+result1 = (marks>=35)?"Passed":"Failed";
 console.log("Meena!...You have",result1,"in the exam")
+}
